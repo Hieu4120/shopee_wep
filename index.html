@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>ABCBook</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="mr-b-1">
+        <div class="header d-flex pd-tb-1 align-items-center container justify-content-between">
+            <div class="logo">
+                <a href="index.html"><img src="images/Newfolder/logo.webp" alt=""></a>
+            </div>
+
+            <div class="d-flex align-items-center">
+                <div>
+                    <a href="login.html" class="btn bg--red pd-btn-1 border-r-2">Sign in</a>
+                </div>
+                <div class="position-relative cart-icon mr-l-1">
+                    <a href="cart.html" class="btn"><i style="font-size:32px" class="fa">&#xf07a;</i></a>
+                    <small class="tag bg--red border-r-3 text-align-center position-absolute">0</small>
+                </div>
+                <div class="mr-l-1">
+                    <a id="menu-toggle"><i style="font-size:32px" class="fa fa-bars"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="search input-group">
+            <input type="text" placeholder="Search book by author or publisher">
+            <button class="btn bg--white text--red"><i class="fa fa-search"></i></button>
+        </div>
+
+        <nav>
+            <ul class="text-align-center">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="store.html">Store</a></li>
+                <li><a>About</a></li>
+                <li><a>Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <div class="bg--pink">
+        <!-- Slider -->
+        <div class="slider container position-relative mr-b-3">
+            <div>
+                <div class="slide">
+                    <img src="images/Newfolder/slider-1.webp" alt="">
+                </div>
+                <div class="slide active">
+                    <img src="images/Newfolder/slider-2.webp" alt="">
+                </div>
+                <div class="slide ">
+                    <img src="images/Newfolder/slider-3.webp" alt="">
+                </div>
+            </div>
+            <div class="position-absolute text-align-center info-slider">
+                <a class="btn bg--white border-r-2 pd-btn-1 mr-b-1">Science Fiction</a>
+                <h1 class="text--white mr-b-1">The History of Phipino</h1>
+                <a href="" class="btn bg--red border-r-2 pd-btn-2">Browser Store</a>
+            </div>
+            <a class="btn-left btn position-absolute"><i class="fa">&#xf053;</i></a>
+            <a class="btn-right btn position-absolute"><i class="fa">&#xf054;</i></a>
+        </div>
+
+
+        <!-- Best selling -->
+        <div class="best-selling container mr-t-1">
+            <h1 class="text-align-center mr-b-2">Best Selling Books Ever</h1>
+            <div class="best-selling-list owl-carousel mr-b-2">
+                <a href="book-detail.html">
+                    <div class="product-card">
+                        <div class="product-card-image">
+                            <img src="images/products/evanesce.webp" alt="">
+                        </div>
+                        <div class="product-card-info">
+                            <h3>Moon Dance</h3>
+                            <p>J.R Rain</p>
+                            <div class="d-flex align-items-center">
+                                <div class="mr-r-1">
+                                    <h5>        
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                    </h5>
+                                    <p>(<small>120</small> Review)</p>
+                                </div>
+                                <h2>$50</h2>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <div class="product-card">
+                    <div class="product-card-image">
+                        <img src="images/products/independent.webp" alt="">
+                    </div>
+                    <div class="product-card-info">
+                        <h3>Moon Dance</h3>
+                        <p>J.R Rain</p>
+                        <div class="d-flex align-items-center">
+                            <div class="mr-r-1">
+                                <h5>        
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </h5>
+                                <p>(<small>120</small> Review)</p>
+                            </div>
+                            <h2>$50</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-card-image">
+                        <img src="images/products/moon-dance.webp" alt="">
+                    </div>
+                    <div class="product-card-info">
+                        <h3>Moon Dance</h3>
+                        <p>J.R Rain</p>
+                        <div class="d-flex align-items-center">
+                            <div class="mr-r-1">
+                                <h5>        
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </h5>
+                                <p>(<small>120</small> Review)</p>
+                            </div>
+                            <h2>$50</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-card-image">
+                        <img src="images/products/queen-bee.webp" alt="">
+                    </div>
+                    <div class="product-card-info">
+                        <h3>Moon Dance</h3>
+                        <p>J.R Rain</p>
+                        <div class="d-flex align-items-center">
+                            <div class="mr-r-1">
+                                <h5>        
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </h5>
+                                <p>(<small>120</small> Review)</p>
+                            </div>
+                            <h2>$50</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-card-image">
+                        <img src="images/products/sin-eater.webp" alt="">
+                    </div>
+                    <div class="product-card-info">
+                        <h3>Moon Dance</h3>
+                        <p>J.R Rain</p>
+                        <div class="d-flex align-items-center">
+                            <div class="mr-r-1">
+                                <h5>        
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </h5>
+                                <p>(<small>120</small> Review)</p>
+                            </div>
+                            <h2>$50</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-card-image">
+                        <img src="images/products/very-nice.webp" alt="">
+                    </div>
+                    <div class="product-card-info">
+                        <h3>Moon Dance</h3>
+                        <p>J.R Rain</p>
+                        <div class="d-flex align-items-center">
+                            <div class="mr-r-1">
+                                <h5>        
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </h5>
+                                <p>(<small>120</small> Review)</p>
+                            </div>
+                            <h2>$50</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-card-image">
+                        <img src="images/products/moon-dance.webp" alt="">
+                    </div>
+                    <div class="product-card-info">
+                        <h3>Moon Dance</h3>
+                        <p>J.R Rain</p>
+                        <div class="d-flex align-items-center">
+                            <div class="mr-r-1">
+                                <h5>        
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </h5>
+                                <p>(<small>120</small> Review)</p>
+                            </div>
+                            <h2>$50</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-card-image">
+                        <img src="images/products/sin-eater.webp" alt="">
+                    </div>
+                    <div class="product-card-info">
+                        <h3>Moon Dance</h3>
+                        <p>J.R Rain</p>
+                        <div class="d-flex align-items-center">
+                            <div class="mr-r-1">
+                                <h5>        
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </h5>
+                                <p>(<small>120</small> Review)</p>
+                            </div>
+                            <h2>$50</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- Featured This Week -->
+        <div class="featured-this-week container position-relative mr-b-3">
+            <div class="title mr-b-2 d-flex justify-content-between align-items-center">
+                <h1>Featured This Week</h1>
+                <a href="">View All</a>
+            </div>
+
+            <div class="feature-product-list owl-carousel">
+                <div class="feature-product-card d-flex align-items-center ">
+                    <div class="feature-product-card-image mr-r-1">
+                        <img src="images/products/evanesce.webp" alt="">
+                    </div>
+                    <div class="feature-product-card-info">
+                        <h1>The Rage of Dragons</h1>
+                        <p>By Evan Winter</p>
+                        <h2>$50</h2>        
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <small>(120 Review)</small>
+                        </div>
+                        <a href="" class="btn bg--t border-r-2 pd-btn-2">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="feature-product-card d-flex align-items-center">
+                    <div class="feature-product-card-image mr-r-1">
+                        <img src="images/products/independent.webp" alt="">
+                    </div>
+                    <div class="feature-product-card-info">
+                        <h1>The Rage of Dragons</h1>
+                        <p>By Evan Winter</p>
+                        <h2>$50</h2>        
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <small>(120 Review)</small>
+                        </div>
+                        <a href="" class="btn bg--t border-r-2 pd-btn-2">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="feature-product-card d-flex align-items-center">
+                    <div class="feature-product-card-image mr-r-1">
+                        <img src="images/products/moon-dance.webp" alt="">
+                    </div>
+                    <div class="feature-product-card-info">
+                        <h1>The Rage of Dragons</h1>
+                        <p>By Evan Winter</p>
+                        <h2>$50</h2>        
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <small>(120 Review)</small>
+                        </div>
+                        <a href="" class="btn bg--t border-r-2 pd-btn-2">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="feature-product-card d-flex align-items-center">
+                    <div class="feature-product-card-image mr-r-1">
+                        <img src="images/products/queen-bee.webp" alt="">
+                    </div>
+                    <div class="feature-product-card-info">
+                        <h1>The Rage of Dragons</h1>
+                        <p>By Evan Winter</p>
+                        <h2>$50</h2>        
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <small>(120 Review)</small>
+                        </div>
+                        <a href="" class="btn bg--t border-r-2 pd-btn-2">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <a class="btn-left btn position-absolute"><i class="fa">&#xf053;</i></a>
+            <a class="btn-right btn position-absolute"><i class="fa">&#xf054;</i></a>
+        </div>
+
+        <!-- Latest Published items -->
+        <div class="lastest-published-items container mr-b-3">
+            <div class="title mr-b-2 d-flex align-items-center justify-content-between">
+                <h1>Latest Published items</h1>
+                <div class="categories owl-carousel">
+                    <div class="category-card">
+                        <a class="btn bg--white active border--dark border-r-2 pd-btn-1">All</a>
+                    </div>
+                    <div class="category-card">
+                        <a class="btn bg--white border--dark border-r-2 pd-btn-1">Horror</a>
+                    </div>
+                    <div class="category-card">
+                        <a class="btn bg--white border--dark border-r-2 pd-btn-1">Thriller</a>
+                    </div >
+                    <div class="category-card">
+                        <a class="btn bg--white border--dark border-r-2 pd-btn-1">Science Fiction</a>
+                    </div>
+                    <div class="category-card">
+                        <a class="btn bg--white border--dark border-r-2 pd-btn-1">History</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-list d-grid col-150 mr-b-2">
+                <div class="product-card">
+                    <div class="product-card-image">
+                        <img src="images/products/moon-dance.webp" alt="">
+                    </div>
+                    <div class="product-card-info">
+                        <h3>Moon Dance</h3>
+                        <p>J.R Rain</p>
+                        <div class="d-flex align-items-center">
+                            <div class="mr-r-1">
+                                <h5>        
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </h5>
+                                <p>(<small>120</small> Review)</p>
+                            </div>
+                            <h2>$50</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-card-image">
+                        <img src="images/products/queen-bee.webp" alt="">
+                    </div>
+                    <div class="product-card-info">
+                        <h3>Moon Dance</h3>
+                        <p>J.R Rain</p>
+                        <div class="d-flex align-items-center">
+                            <div class="mr-r-1">
+                                <h5>        
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </h5>
+                                <p>(<small>120</small> Review)</p>
+                            </div>
+                            <h2>$50</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-card-image">
+                        <img src="images/products/sin-eater.webp" alt="">
+                    </div>
+                    <div class="product-card-info">
+                        <h3>Moon Dance</h3>
+                        <p>J.R Rain</p>
+                        <div class="d-flex align-items-center">
+                            <div class="mr-r-1">
+                                <h5>        
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </h5>
+                                <p>(<small>120</small> Review)</p>
+                            </div>
+                            <h2>$50</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-card-image">
+                        <img src="images/products/very-nice.webp" alt="">
+                    </div>
+                    <div class="product-card-info">
+                        <h3>Moon Dance</h3>
+                        <p>J.R Rain</p>
+                        <div class="d-flex align-items-center">
+                            <div class="mr-r-1">
+                                <h5>        
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </h5>
+                                <p>(<small>120</small> Review)</p>
+                            </div>
+                            <h2>$50</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-card-image">
+                        <img src="images/products/moon-dance.webp" alt="">
+                    </div>
+                    <div class="product-card-info">
+                        <h3>Moon Dance</h3>
+                        <p>J.R Rain</p>
+                        <div class="d-flex align-items-center">
+                            <div class="mr-r-1">
+                                <h5>        
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </h5>
+                                <p>(<small>120</small> Review)</p>
+                            </div>
+                            <h2>$50</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-card-image">
+                        <img src="images/products/sin-eater.webp" alt="">
+                    </div>
+                    <div class="product-card-info">
+                        <h3>Moon Dance</h3>
+                        <p>J.R Rain</p>
+                        <div class="d-flex align-items-center">
+                            <div class="mr-r-1">
+                                <h5>        
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </h5>
+                                <p>(<small>120</small> Review)</p>
+                            </div>
+                            <h2>$50</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+            <p class="text-align-center"><a href="" class="btn bg--red border-r-2 pd-btn-2">Browser Store</a></p>
+        </div>
+
+        <div class="introduction d-grid container col-300 mr-b-3">
+            <div id="introduction-item-1">
+                <div class="introduction-info d-flex justify-content-between align-items-center">
+                    <h2>The History of Phipino</h2>
+                    <p class="text-align-center"><a href="" class="btn bg--red border-r-2 pd-btn-2">View Details</a></p>
+                </div>
+            </div>
+            <div id="introduction-item-2">
+                <div class="introduction-info d-flex justify-content-between align-items-center">
+                    <h2>Wilma Mumduya                    </h2>
+                    <p class="text-align-center"><a href="" class="btn bg--red border-r-2 pd-btn-2">View Details</a></p>
+                </div>
+            </div>
+
+
+        </div>
+    </main>
+
+    <footer class="bg--pink">
+        <div class="container d-grid col-300">
+            <div class="footer-1 ">
+                <div class="logo mr-b-2">
+                    <img src="images/Newfolder/logo.webp" alt="">
+                </div>
+                <p>Get the breathing space now, and we’ll extend your term at the other end year for go.</p>
+            </div>
+
+            <div class="footer-2">
+                <h3>Book Category</h3>
+                <ul>
+                    <li>History</li>
+                    <li>Horror - Thriller</li>
+                    <li>Love Stories</li>
+                    <li>Science Fiction</li>
+                    <li>Business</li>
+                </ul>
+            </div>
+
+            <div class="footer-3">
+                <h3>Site map</h3>
+                <ul>
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>FAQs</li>
+                    <li>Blog</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        
+    </footer>
+    
+    <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
